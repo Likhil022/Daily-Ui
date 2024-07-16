@@ -98,3 +98,17 @@ button:hover{
     font-weight: 400px;
     width: 95px;
 }
+@media (max-width:500px){
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+@body{
+ padding:10px;
+}
+}
